@@ -1,5 +1,5 @@
 class OrderlyQueue {
-    public String orderlyQueue(String s, int k) {
+    public String orderlyQueue(String S, int K) {
         if (K > 1) {
             char S2[] = S.toCharArray();
             Arrays.sort(S2);
